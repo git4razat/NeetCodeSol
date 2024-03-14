@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class ProductExceptSelf {
 	
 	public static void main(String[] args) {
-		productExceptSelf(new int[] {1,2,3,4});
+		productExceptSelf(new int[] {4,2,3,4});
 	}
 	
 	private static int[] productExceptSelf(int[] numsArr) {

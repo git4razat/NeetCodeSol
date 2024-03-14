@@ -11,7 +11,7 @@ public class TwoSum {
 		int target = 18;
 		System.out.println(Arrays.toString(TwoSum.getTwoSum(inputArr, target)));
 	}
-	
+	// o(n) wit extra space i.e. Map
 	private static int[] getTwoSum(int[] arr, int target) {
 		Map<Integer, Integer> map = new HashMap<Integer, Integer>();
 		for (int i = 0; i < arr.length; i++) {

@@ -10,6 +10,7 @@ public class BestTimeStock {
 		System.out.println(getMaxProfit(arr));
 	}
 	
+	// o(n)
 	private static int getMaxProfit(int[] arr) {
 		int buy = 0, sell = 0;
 		int maxProfit = 0;
