@@ -4,5 +4,5 @@
 /**
  * 
  */
-module NeetCodeSolutions {
+module NeetCodeSol {
 }
