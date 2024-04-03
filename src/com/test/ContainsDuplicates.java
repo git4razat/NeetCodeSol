@@ -3,7 +3,7 @@ package com.test;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 
-public class CheckDuplicates {
+public class ContainsDuplicates {
 	
 	public static void main(String[] args) {
 		int[] inputArr = new int[] {1,2,3,4};
